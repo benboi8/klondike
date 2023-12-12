@@ -4,7 +4,7 @@ import 'package:flame_game/klondike_game.dart';
 
 import 'card.dart';
 
-class WastePile extends PositionComponent with HasGameReference implements Pile {
+class WastePile extends PositionComponent with HasGameReference<KlondikeGame> implements Pile {
   @override
   bool get debugMode => true;
 
